@@ -1,0 +1,177 @@
+{
+  "floorPlan": {
+    "points": [
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      {
+        "x": 4.77921,
+        "y": 0,
+        "z": 0
+      },
+      {
+        "x": 4.77921,
+        "y": -1.290478,
+        "z": 0
+      },
+      {
+        "x": 8.117291,
+        "y": -1.290478,
+        "z": 0
+      },
+      {
+        "x": 8.117291,
+        "y": 0,
+        "z": 0
+      },
+      {
+        "x": 8.117291,
+        "y": 0.03682,
+        "z": 0
+      },
+      {
+        "x": 16.553099,
+        "y": 0.03682,
+        "z": 0
+      },
+      {
+        "x": 16.553099,
+        "y": 7.061578,
+        "z": 0
+      },
+      {
+        "x": 11.639192,
+        "y": 7.061578,
+        "z": 0
+      },
+      {
+        "x": 11.639192,
+        "y": 12.887525,
+        "z": 0
+      },
+      {
+        "x": 8.117291,
+        "y": 12.887525,
+        "z": 0
+      },
+      {
+        "x": 8.117291,
+        "y": 8.322167,
+        "z": 0
+      },
+      {
+        "x": 0,
+        "y": 8.322167,
+        "z": 0
+      },
+      {
+        "x": 0,
+        "y": 8.254479,
+        "z": 0
+      },
+      {
+        "x": -7.502281,
+        "y": 8.254479,
+        "z": 0
+      },
+      {
+        "x": -7.502281,
+        "y": 2.007097,
+        "z": 0
+      },
+      {
+        "x": 0,
+        "y": 2.007097,
+        "z": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    ],
+    "name": "curve118.csv",
+    "id": "curve118"
+  },
+  "userData": {
+    "gridLines": [],
+    "columns": [
+      {
+        "id": "889b608f-60f1-432d-b6ec-7ade5d995e58",
+        "position": {
+          "x": 0.05448131647298073,
+          "y": 5.358987123451047,
+          "z": 0
+        },
+        "size": 0.5
+      },
+      {
+        "id": "bb84cb52-8c03-43dc-9485-9b9a15ec8b32",
+        "position": {
+          "x": 4.522016605116896,
+          "y": 5.915480570451393,
+          "z": 0
+        },
+        "size": 0.2
+      },
+      {
+        "id": "f2ff3e18-8573-40a2-a168-91590b4b1da4",
+        "position": {
+          "x": 4.685463048530633,
+          "y": 2.1591354738796826,
+          "z": 0
+        },
+        "size": 0.2
+      },
+      {
+        "id": "0d0ee755-d04c-4db1-8d94-e2e196a69729",
+        "position": {
+          "x": 7.654740935211816,
+          "y": 2.0200137042761925,
+          "z": 0
+        },
+        "size": 0.2
+      },
+      {
+        "id": "b9973eef-2493-4cc4-b1ba-c9ca3be5d1d4",
+        "position": {
+          "x": 7.409571270091207,
+          "y": 6.1937304782447535,
+          "z": 0
+        },
+        "size": 0.2
+      },
+      {
+        "id": "f3a58c71-008e-419f-8690-ce050bc4a686",
+        "position": {
+          "x": 11.631941881604119,
+          "y": 3.585157494514407,
+          "z": 0
+        },
+        "size": 0.2
+      },
+      {
+        "id": "f2ef18ea-fd97-43e7-aa9d-7a28f9319b72",
+        "position": {
+          "x": -3.868233325456744,
+          "y": 5.393765973705322,
+          "z": 0
+        },
+        "size": 0.2
+      }
+    ]
+  },
+  "accuracy": {
+    "score": 74,
+    "feedback": "You are close to 47% of the previous users column placements.",
+    "details": "Column at (0.05, 5.36) - \n      Distance from optimal: 0.85\nColumn at (4.52, 5.92) - \n      Distance from optimal: 1.50\nColumn at (4.69, 2.16) - \n      Distance from optimal: 1.68\nColumn at (7.65, 2.02) - \n      Distance from optimal: 1.79\nColumn at (7.41, 6.19) - \n      Distance from optimal: 1.41\nColumn at (11.63, 3.59) - \n      Distance from optimal: 0.52\nColumn at (-3.87, 5.39) - \n      Distance from optimal: 1.19"
+  },
+  "userCredentials": {
+    "username": "sahilyousafp",
+    "email": "sahil.yousaf@students.iaac.net",
+    "engineerType": "Structural",
+    "lastLogin": "2025-05-13T21:29:59.549Z"
+  }
+}

@@ -1,0 +1,71 @@
+/* Mobile-specific styles for the CSV Visualizer app */
+
+/* Global mobile adjustments */
+@media (max-width: 480px) {
+  body {
+    touch-action: manipulation; /* Prevents double-tap zoom on some touch devices */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS from auto-scaling text */
+  }
+  
+  /* Increase touch targets */
+  button, 
+  input[type="button"], 
+  input[type="submit"],
+  input[type="range"],
+  select {
+    min-height: 44px; /* Apple's recommended minimum touch target size */
+  }
+  
+  /* Fix iOS input zoom issue */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  textarea {
+    font-size: 16px; /* Prevents iOS zoom on focus */
+  }
+  
+  /* Improve form element spacing */
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Improve scrolling experience */
+  .scroll-container {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Tablet-specific adjustments */
+@media (min-width: 481px) and (max-width: 768px) {
+  button, 
+  input[type="button"], 
+  input[type="submit"] {
+    min-height: 40px;
+  }
+}
+
+/* Fix for canvas rendering on mobile */
+canvas {
+  touch-action: none; /* Prevents browser handling of touch gestures */
+}
+
+/* Improves touch feedback */
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+  opacity: 0.8;
+}
+
+/* Spinner optimization for mobile */
+@keyframes mobile-spinner {
+  to { transform: rotate(360deg); }
+}
+
+.loading-spinner {
+  border-width: 3px;
+  width: 20px;
+  height: 20px;
+  animation: mobile-spinner 0.8s linear infinite;
+}
